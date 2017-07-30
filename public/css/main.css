@@ -1,0 +1,16 @@
+body {
+    margin: 20px auto;
+}
+.content {
+    margin: 0 -10px;
+}
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.thumbnail {
+    width: calc(25% - 20px);
+    margin: 0 10px 20px 10px;
+    float: left;
+}
